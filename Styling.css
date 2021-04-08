@@ -1,2 +1,36 @@
 /* CSS Document */
+h1 {
+	background-color: none;
+	color: rgba(45,45,45,1.00);
+	align-content: center;
+	font-family: kansasnew,serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 4vw;
+}
 
+h2 {
+	background-color: none;
+	color: rgba(45,45,45,1.00);
+	align-content: center;
+	font-family: kansasnew,serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5vw;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,243,229,1.00);
+}
+
+button {
+	color: black;
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: black;
+}
