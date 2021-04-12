@@ -3,8 +3,8 @@ h1 {
 	background-color: none;
 	color: rgba(45,45,45,1.00);
 	align-content: center;
-	font-family: kansasnew,serif;
-	font-weight: 700;
+	font-family: utopia-std-headline,serif;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 4vw;
 }
@@ -13,8 +13,8 @@ h2 {
 	background-color: none;
 	color: rgba(45,45,45,1.00);
 	align-content: center;
-	font-family: kansasnew,serif;
-	font-weight: 700;
+	font-family: utopia-std-headline,serif;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 1.5vw;
 }
@@ -28,9 +28,32 @@ body {
 button {
 	color: black;
 	border: none;
+	background: none;
 }
 
 a {
 	text-decoration: none;
 	text-decoration-color: black;
+	color: rgba(45,45,45,1.00);
+}
+
+.dropdown-hover {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-box {
+	display: none;
+	position: absolute;
+	background-color: aqua;
+	width: 100%;
+}
+
+.dropdown-hover:hover {
+	background-color: peru;
+}
+
+.dropdown-hover:hover ~ .dropdown-box {
+	display: block;
+	background-color: peru;
 }
